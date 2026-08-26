@@ -1,0 +1,78 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:'Playfair';src:url('../assets/fonts/PlayfairDisplay-Bold.ttf') format('truetype');font-weight:700}
+@font-face{font-family:'Manrope';src:url('../assets/fonts/Manrope-Regular.ttf') format('truetype');font-weight:400}
+@font-face{font-family:'Manrope';src:url('../assets/fonts/Manrope-ExtraBold.ttf') format('truetype');font-weight:800}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{font-family:'Manrope',sans-serif;background:#F4F0E8;position:relative;color:#14261E}
+.bg{position:absolute;inset:0;background:
+  radial-gradient(820px 820px at 15% 6%, rgba(20,90,66,.10), transparent 62%),
+  radial-gradient(760px 760px at 92% 78%, rgba(196,160,96,.20), transparent 62%),
+  linear-gradient(180deg,#FAF7F1,#EFE9DD)}
+.arc{position:absolute;right:-260px;top:520px;width:940px;height:940px;border-radius:50%;
+  border:2px solid rgba(20,90,66,.16)}
+.arc2{position:absolute;right:-160px;top:640px;width:700px;height:700px;border-radius:50%;
+  border:2px solid rgba(196,160,96,.32)}
+.wrap{position:absolute;inset:0;padding:260px 92px 250px;display:flex;flex-direction:column}
+
+.top{display:flex;align-items:center;gap:22px}
+.line{height:2px;width:96px;background:#145A42;opacity:.5}
+.top span{font-size:27px;font-weight:800;letter-spacing:.30em;color:#145A42;text-transform:uppercase}
+
+h1{font-family:'Playfair',serif;font-weight:700;margin-top:46px;
+  font-size:106px;line-height:1.04;letter-spacing:-.02em;color:#0F2019}
+h1 i{font-style:italic;color:#145A42}
+.sub{margin-top:32px;font-size:34px;line-height:1.48;color:#4A5A52;max-width:830px}
+
+.mid{margin-top:48px}
+.mid h2{font-family:'Playfair',serif;font-weight:700;font-size:56px;color:#145A42;letter-spacing:-.01em}
+.chips{margin-top:30px;display:flex;flex-wrap:wrap;gap:16px}
+.chip{padding:18px 30px;border-radius:100px;background:rgba(20,90,66,.08);
+  border:1px solid rgba(20,90,66,.22);font-size:27px;font-weight:600;color:#2C4C40}
+.panel{margin-top:auto;border-radius:34px;background:#0F2019;padding:56px 54px;
+  box-shadow:0 40px 90px rgba(15,32,25,.22)}
+.row{display:flex;align-items:flex-end;justify-content:space-between;gap:30px}
+.row+.row{margin-top:38px;padding-top:38px;border-top:1px solid rgba(255,255,255,.14)}
+.rl{font-size:28px;font-weight:800;letter-spacing:.16em;color:#9FB3A9;text-transform:uppercase}
+.rv{font-family:'Playfair',serif;font-size:70px;line-height:1;color:#F4F0E8;margin-top:14px}
+.rv b{color:#C4A060;font-weight:700}
+.tag{flex:0 0 auto;padding:16px 26px;border-radius:100px;border:1px solid rgba(196,160,96,.5);
+  font-size:24px;font-weight:800;letter-spacing:.12em;color:#C4A060;text-transform:uppercase}
+
+.cta{margin-top:46px;display:flex;align-items:center;justify-content:space-between;gap:26px;
+  padding:44px 52px;border-radius:100px;background:#145A42}
+.cta b{font-family:'Playfair',serif;font-size:54px;font-weight:700;color:#F4F0E8;letter-spacing:.01em}
+.circ{flex:0 0 82px;height:82px;border-radius:50%;background:#C4A060;display:grid;place-items:center}
+.circ svg{width:40px;height:40px}
+.fine{margin-top:26px;text-align:center;font-size:24px;color:#7C8B83;letter-spacing:.04em}
+</style>
+<div class="bg"></div><div class="arc"></div><div class="arc2"></div>
+<div class="wrap">
+  <div class="top"><i class="line"></i><span>Oportunidad de inversión</span></div>
+
+  <h1>Haz que tu<br>dinero <i>trabaje</i><br>por ti.</h1>
+  <p class="sub">Abrimos un grupo reducido de inversionistas para el siguiente ciclo. Reglas claras, rendimiento definido.</p>
+
+  <div class="mid">
+    <h2>Se buscan inversionistas.</h2>
+  </div>
+
+  <div class="panel">
+    <div class="row">
+      <div><div class="rl">Desde</div><div class="rv"><b>$20,000</b> MXN</div></div>
+      <div class="tag">Entrada</div>
+    </div>
+    <div class="row">
+      <div><div class="rl">Retorno</div><div class="rv"><b>30%</b> anual</div></div>
+      <div class="tag">Rendimiento</div>
+    </div>
+  </div>
+
+  <div class="cta">
+    <b>Envíame un DM</b>
+    <div class="circ"><svg viewBox="0 0 24 24" fill="none" stroke="#0F2019" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg></div>
+  </div>
+  <div class="fine">Cupo limitado · Te comparto los detalles por privado</div>
+</div>

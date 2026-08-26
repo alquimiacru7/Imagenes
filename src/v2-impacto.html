@@ -1,0 +1,61 @@
+<!doctype html>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:'Bebas';src:url('../assets/fonts/BebasNeue-Regular.ttf') format('truetype')}
+@font-face{font-family:'Inter';src:url('../assets/fonts/Inter-Regular.ttf') format('truetype');font-weight:100 900}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body{font-family:'Inter',sans-serif;background:#0A0A0A;position:relative}
+.bg{position:absolute;inset:0;background:
+  radial-gradient(760px 760px at 88% 14%, rgba(198,255,0,.16), transparent 60%),
+  radial-gradient(700px 700px at 6% 88%, rgba(198,255,0,.10), transparent 62%),
+  #0A0A0A;}
+.noise{position:absolute;inset:0;opacity:.05;
+  background-image:repeating-linear-gradient(0deg,#fff 0 2px,transparent 2px 5px)}
+.ticker{position:absolute;left:-60px;width:1200px;padding:22px 0;background:#C6FF00;
+  font-family:'Bebas',sans-serif;font-size:44px;letter-spacing:.14em;color:#0A0A0A;white-space:nowrap;text-align:center}
+.t1{top:196px;transform:rotate(-3.2deg)}
+.t2{bottom:170px;transform:rotate(2.6deg)}
+
+.wrap{position:absolute;inset:0;padding:360px 82px;display:flex;flex-direction:column;justify-content:center}
+.kicker{font-size:32px;font-weight:800;letter-spacing:.24em;color:#C6FF00;text-transform:uppercase}
+h1{font-family:'Bebas',sans-serif;margin-top:26px;font-size:186px;line-height:.85;color:#fff;letter-spacing:.005em}
+h1 .hl{color:#0A0A0A;background:#C6FF00;padding:0 22px;display:inline-block;transform:skewX(-5deg)}
+.lede{margin-top:40px;font-size:39px;line-height:1.4;color:#B9B9B9;max-width:840px;font-weight:400}
+.lede b{color:#fff;font-weight:700}
+
+.stats{margin-top:74px;display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.st{border:3px solid #232323;border-radius:22px;padding:44px 38px;background:#111}
+.st.on{border-color:#C6FF00;background:#151A05}
+.stn{font-family:'Bebas',sans-serif;font-size:104px;line-height:.9;color:#fff}
+.st.on .stn{color:#C6FF00}
+.stl{margin-top:16px;font-size:26px;font-weight:600;letter-spacing:.10em;color:#8F8F8F;text-transform:uppercase;line-height:1.35}
+
+.cta{margin-top:70px;display:flex;align-items:center;gap:28px}
+.badge{flex:0 0 118px;height:118px;border-radius:50%;background:#C6FF00;display:grid;place-items:center}
+.badge svg{width:60px;height:60px}
+.ctat{font-family:'Bebas',sans-serif;font-size:84px;line-height:.92;color:#fff;letter-spacing:.01em}
+.ctas{font-size:27px;color:#8F8F8F;letter-spacing:.06em;margin-top:6px;font-family:'Inter',sans-serif}
+</style>
+<div class="bg"></div><div class="noise"></div>
+<div class="ticker t1">OPORTUNIDAD DE INVERSIÓN • OPORTUNIDAD DE INVERSIÓN • OPORTUNIDAD DE INVERSIÓN</div>
+<div class="ticker t2">CUPO LIMITADO • CUPO LIMITADO • CUPO LIMITADO • CUPO LIMITADO • CUPO LIMITADO</div>
+
+<div class="wrap">
+  <div class="kicker">Se buscan inversionistas</div>
+  <h1>TU DINERO<br>NO DEBERÍA<br><span class="hl">DORMIR.</span></h1>
+  <p class="lede">Entras <b>desde $20,000 MXN</b> y tu capital trabaja con un retorno <b>del 30% anual</b>. Sin letras chiquitas.</p>
+
+  <div class="stats">
+    <div class="st"><div class="stn">$20K</div><div class="stl">Inversión<br>mínima MXN</div></div>
+    <div class="st on"><div class="stn">30%</div><div class="stl">Retorno<br>anual</div></div>
+  </div>
+
+  <div class="cta">
+    <div class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="#0A0A0A" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></div>
+    <div>
+      <div class="ctat">DM PARA DETALLES</div>
+      <div class="ctas">Escríbeme por privado y te paso los números</div>
+    </div>
+  </div>
+</div>

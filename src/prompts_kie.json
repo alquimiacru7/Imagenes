@@ -1,0 +1,21 @@
+{
+  "model": "google/nano-banana-2",
+  "aspect_ratio": "9:16",
+  "variants": [
+    {
+      "id": "v1-confianza",
+      "concept": "Corporativo / confianza. Azul petroleo profundo + dorado.",
+      "prompt": "Vertical 9:16 Instagram Story poster for a financial investment offer, premium corporate style. Deep navy blue gradient background (#0B2138 to #050E18) with a subtle gold grid and a soft rising gold line-chart glowing at the bottom. Clean modern layout with generous margins, all content inside the central safe area. Text in Spanish, perfectly spelled, crisp and legible: a small gold outlined pill at the top reading 'OPORTUNIDAD DE INVERSION'; a huge bold condensed uppercase headline 'BUSCAMOS INVERSIONISTAS' with 'INVERSIONISTAS' in gold; below, two dark glass cards with gold icons reading 'DESDE $20,000 MXN' and '30% DE RETORNO ANUAL'; at the bottom a solid gold rounded button with dark navy text reading 'MANDAME DM'. Elegant heavy sans-serif typography, high contrast, sharp vector-clean rendering, no photograph of people, no logos, no watermark, no lorem ipsum."
+    },
+    {
+      "id": "v2-impacto",
+      "concept": "Brutalista / alto impacto. Negro + verde lima acido.",
+      "prompt": "Vertical 9:16 Instagram Story poster, bold brutalist streetwear-finance style. Pure black background with acid lime green (#C6FF00) accents and two tilted lime tape banners crossing the top and bottom edges, the top one repeating 'OPORTUNIDAD DE INVERSION' and the bottom one repeating 'CUPO LIMITADO' in black condensed uppercase. Center: small lime label 'SE BUSCAN INVERSIONISTAS', then a massive white condensed uppercase headline 'TU DINERO NO DEBERIA DORMIR' with the word 'DORMIR' set in black on a lime highlight block. Below, two rounded stat boxes: one dark grey reading '$20K / INVERSION MINIMA MXN', one outlined in lime reading '30% / RETORNO ANUAL' with the number in lime. At the bottom a lime circle with a black arrow next to white condensed text 'DM PARA DETALLES'. Spanish text, perfectly spelled and legible, extreme contrast, poster graphic design, flat vector rendering, no people, no logos, no watermark."
+    },
+    {
+      "id": "v3-premium",
+      "concept": "Editorial premium. Crema + verde esmeralda + dorado.",
+      "prompt": "Vertical 9:16 Instagram Story poster, elegant editorial luxury style. Warm cream off-white background (#F4F0E8) with faint thin emerald and gold concentric circle outlines on the right side. Text in Spanish, perfectly spelled and legible: a small emerald uppercase label with a short rule reading 'OPORTUNIDAD DE INVERSION'; a large high-contrast serif headline 'Haz que tu dinero trabaje por ti.' with the word 'trabaje' in emerald italic; a short grey supporting paragraph; an emerald serif line reading 'Se buscan inversionistas.'; then a dark forest-green rounded panel with two rows in serif type, 'DESDE $20,000 MXN' and 'RETORNO 30% anual' with the figures in warm gold, each row with a small gold outlined pill tag; at the bottom a full-width emerald pill button with cream serif text 'Enviame un DM' and a gold circle send icon. Refined typography, airy composition, sophisticated print-magazine feel, no people, no logos, no watermark."
+    }
+  ]
+}
