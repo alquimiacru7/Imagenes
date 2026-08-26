@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 300" fill="none">
+  <g stroke="#C0873B" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- boca superior del alambique -->
+    <path d="M74 6 H166"/>
+    <path d="M79 21 H161"/>
+    <path d="M74 6 L79 21"/>
+    <path d="M166 6 L161 21"/>
+    <!-- pata izquierda: linea exterior e interior formando la A -->
+    <path d="M79 21 L36 236 C33 250 26 256 16 258 H72 C66 254 63 248 64 236 L120 36"/>
+    <!-- pata derecha -->
+    <path d="M161 21 L204 236 C207 250 214 256 224 258 H168 C174 254 177 248 176 236 L120 36"/>
+    <!-- bases -->
+    <path d="M12 262 H76"/>
+    <path d="M164 262 H228"/>
+    <!-- gota -->
+    <path d="M120 150 C120 150 138 176 138 190 C138 200 130 208 120 208 C110 208 102 200 102 190 C102 176 120 150 120 150 Z"/>
+  </g>
+</svg>

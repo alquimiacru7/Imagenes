@@ -2,14 +2,26 @@
 
 ## Borrador actual: `borrador-alquimia`
 
-Propuesta minimalista con branding de **Alquimia Cru**: fondo hueso, tinta
-carbón cálido y un solo acento cobre apagado. Mensaje breve, mucho aire.
+Propuesta minimalista con el branding de **Alquimia Cru**, usando los colores
+del logo. Mensaje breve, mucho aire.
+
+**Paleta (tomada del logo):**
+
+| | Hex | Uso |
+|---|---|---|
+| Dorado | `#C0873B` | Emblema, "CRU", cifras, botón |
+| Tinta | `#0E0E0E` | Wordmark y titular |
+| Papel | `#FFFFFF` → `#F6F1E8` | Fondo |
+
+**Tipografía:** Cormorant Garamond (serif del wordmark) + Jost (sans de apoyo).
 
 - Archivo: `out/borrador-alquimia.png` · fuente: `src/borrador-alquimia.html`
 - Prompt para Kie AI (nano banana **pro**): variante `borrador-alquimia`
   en `src/prompts_kie.json`
-- El emblema (círculo + triángulo alquímico) es un **marcador provisional**:
-  se reemplaza por el logo real de Alquimia Cru en `src/borrador-alquimia.html`.
+- El emblema del alambique está **redibujado en vector** a partir del logo
+  (`assets/brand/emblema.svg`, también inline en el HTML). Para usar el archivo
+  original, sustituye el bloque `<svg class="emblema">` por
+  `<img class="emblema" src="../assets/brand/logo.png">`.
 
 ---
 
