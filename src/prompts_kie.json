@@ -3,6 +3,12 @@
   "aspect_ratio": "9:16",
   "variants": [
     {
+      "id": "borrador-alquimia",
+      "model": "google/nano-banana-pro",
+      "concept": "Borrador Alquimia Cru. Minimalista, hueso + cobre apagado.",
+      "prompt": "Vertical 9:16 Instagram Story, minimalist luxury branding poster. Warm bone-white paper background (#E9E4DA) with a very subtle soft grain texture and a gentle lighter glow behind the center. Extremely clean and uncluttered, generous negative space, everything centered on one vertical axis. Muted restrained palette only: warm off-white, deep warm charcoal brown (#2A2621) and a single soft antique copper accent (#96714C). No bright or saturated colors, no gradients that call attention, no photographs, no people, no textures other than fine paper grain. Composition from top to bottom: a small thin-line circular emblem containing a simple alchemical triangle with a horizontal bar, drawn in fine copper strokes; below it an elegant high-contrast serif wordmark in two lines, 'ALQUIMIA' in charcoal with wide letter spacing and 'CRU' underneath in copper with even wider letter spacing; a small uppercase sans-serif label in warm grey reading 'OPORTUNIDAD DE INVERSION'; a short serif headline reading 'Invierte con nosotros.' with the word 'nosotros' in copper italic; a single thin horizontal divider separating two small serif figures side by side, 'Desde $20K MXN' and '30% ANUAL', with the numbers in copper and tiny uppercase labels beneath; at the bottom a slim outlined pill button with a small chat icon and uppercase text 'DM PARA DETALLES'. All text in Spanish, perfectly spelled, crisp and sharp. Refined editorial print design, calm and premium, flat vector-clean rendering, no logos other than described, no watermark."
+    },
+    {
       "id": "v1-confianza",
       "concept": "Corporativo / confianza. Azul petroleo profundo + dorado.",
       "prompt": "Vertical 9:16 Instagram Story poster for a financial investment offer, premium corporate style. Deep navy blue gradient background (#0B2138 to #050E18) with a subtle gold grid and a soft rising gold line-chart glowing at the bottom. Clean modern layout with generous margins, all content inside the central safe area. Text in Spanish, perfectly spelled, crisp and legible: a small gold outlined pill at the top reading 'OPORTUNIDAD DE INVERSION'; a huge bold condensed uppercase headline 'BUSCAMOS INVERSIONISTAS' with 'INVERSIONISTAS' in gold; below, two dark glass cards with gold icons reading 'DESDE $20,000 MXN' and '30% DE RETORNO ANUAL'; at the bottom a solid gold rounded button with dark navy text reading 'MANDAME DM'. Elegant heavy sans-serif typography, high contrast, sharp vector-clean rendering, no photograph of people, no logos, no watermark, no lorem ipsum."
@@ -17,5 +23,9 @@
       "concept": "Editorial premium. Crema + verde esmeralda + dorado.",
       "prompt": "Vertical 9:16 Instagram Story poster, elegant editorial luxury style. Warm cream off-white background (#F4F0E8) with faint thin emerald and gold concentric circle outlines on the right side. Text in Spanish, perfectly spelled and legible: a small emerald uppercase label with a short rule reading 'OPORTUNIDAD DE INVERSION'; a large high-contrast serif headline 'Haz que tu dinero trabaje por ti.' with the word 'trabaje' in emerald italic; a short grey supporting paragraph; an emerald serif line reading 'Se buscan inversionistas.'; then a dark forest-green rounded panel with two rows in serif type, 'DESDE $20,000 MXN' and 'RETORNO 30% anual' with the figures in warm gold, each row with a small gold outlined pill tag; at the bottom a full-width emerald pill button with cream serif text 'Enviame un DM' and a gold circle send icon. Refined typography, airy composition, sophisticated print-magazine feel, no people, no logos, no watermark."
     }
-  ]
+  ],
+  "models": {
+    "pro": "google/nano-banana-pro",
+    "v2": "google/nano-banana-2"
+  }
 }

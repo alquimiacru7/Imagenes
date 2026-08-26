@@ -108,8 +108,9 @@ def main() -> None:
     os.makedirs(OUTDIR, exist_ok=True)
     for v in variants:
         print(f"[{v['id']}] {v['concept']}")
-        task_id = create_task(key, cfg["model"], v["prompt"], cfg["aspect_ratio"])
-        print(f"    taskId: {task_id}")
+        model = v.get("model", cfg["model"])
+        task_id = create_task(key, model, v["prompt"], cfg["aspect_ratio"])
+        print(f"    modelo: {model}\n    taskId: {task_id}")
         urls = wait_for(key, task_id)
         if not urls:
             print("    sin imagenes en el resultado")

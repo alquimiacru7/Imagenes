@@ -1,4 +1,19 @@
-# Historias de inversión — 3 variantes (Instagram / Facebook Stories)
+# Historias de inversión — Alquimia Cru (Instagram / Facebook Stories)
+
+## Borrador actual: `borrador-alquimia`
+
+Propuesta minimalista con branding de **Alquimia Cru**: fondo hueso, tinta
+carbón cálido y un solo acento cobre apagado. Mensaje breve, mucho aire.
+
+- Archivo: `out/borrador-alquimia.png` · fuente: `src/borrador-alquimia.html`
+- Prompt para Kie AI (nano banana **pro**): variante `borrador-alquimia`
+  en `src/prompts_kie.json`
+- El emblema (círculo + triángulo alquímico) es un **marcador provisional**:
+  se reemplaza por el logo real de Alquimia Cru en `src/borrador-alquimia.html`.
+
+---
+
+## Versiones anteriores (3 variantes)
 
 Tres versiones de la misma historia en **1080 × 1920 px**, con distinto copy, paleta y estilo.
 
@@ -38,8 +53,8 @@ Requiere Chromium. Si el binario está en otra ruta:
 
 ```bash
 export KIE_API_KEY="tu_api_key"
-python3 src/generar_kie.py              # las 3 variantes
-python3 src/generar_kie.py v2-impacto   # solo una
+python3 src/generar_kie.py                      # todas las variantes
+python3 src/generar_kie.py borrador-alquimia    # solo el borrador Alquimia Cru
 ```
 
 Las imágenes quedan en `out/kie/`. El script no tiene dependencias externas.
@@ -48,8 +63,10 @@ Notas:
 
 - La API key **no** está guardada en el repo; se lee de la variable de entorno
   `KIE_API_KEY`.
-- Modelo y proporción se configuran en `src/prompts_kie.json`
-  (`model`: `google/nano-banana-2`, `aspect_ratio`: `9:16`).
+- Modelo y proporción se configuran en `src/prompts_kie.json`. Cada variante
+  puede llevar su propio `model`; `borrador-alquimia` usa
+  `google/nano-banana-pro` y las tres anteriores `google/nano-banana-2`.
+  El campo `models` lista ambos identificadores por si hay que corregirlos.
 - El script usa `POST /api/v1/jobs/createTask` y consulta el estado en
   `GET /api/v1/jobs/recordInfo?taskId=...`. Si Kie AI cambia el nombre del
   modelo o la forma de la respuesta, se ajusta en `src/generar_kie.py`
