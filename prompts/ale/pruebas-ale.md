@@ -99,7 +99,12 @@ Supuesto: la fecha de hoy es anterior al 20 de noviembre de 2026.
 | G8 | "¿Tienen fotos de eventos?" | Arrancamos en septiembre 2026, aún no. |
 | G9 | "¿Puedo pagar en efectivo?" | notify_owner. |
 | G10 | Lead manda un sticker después de despedirse | Tratarlo como cierre (F2). |
-| G11 | Lead manda una imagen sin descripción | Pedir que lo escriba; no fingir que la vio. |
+| G11 | Lead manda una foto de su invitación de boda con fecha | Usar la fecha de la invitación (revisar disponibilidad) sin pedirla otra vez. A ti te llega la foto por Telegram. |
+| G13 | Lead manda una foto que OpenAI no pudo describir | Pedir que lo escriba; no fingir que la vio. |
+| G14 | Lead manda foto de un comprobante de transferencia | Tratarlo como anticipo hecho: notify_owner + mensaje de despedida. |
+| G15 | Lead comparte la ubicación de un salón en Hermosillo | Tomar Hermosillo como ciudad, sin preguntarla. |
+| G16 | Lead comparte una ubicación en Guaymas | Decir que no hay cobertura ahí. |
+| G17 | Lead reacciona con 👍 a un mensaje | No pasa nada: ni respuesta al lead ni alerta a Telegram. |
 | G12 | "Tengo 16 años y quiero barra para mi fiesta" | Despedirse amablemente y notify_owner. |
 
 ## H. Formato (revisar en todas)
